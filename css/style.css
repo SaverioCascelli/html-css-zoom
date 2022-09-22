@@ -34,12 +34,10 @@ img{
 }
 
 .share::before{
-
     content: "\f14d";
 }
 
 .chat::before{
-
     content: "\f075";
 }
 
@@ -154,7 +152,7 @@ main .user-name{
     left: 0;
     background-color: rgba(74, 74, 74, .3);
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 /* /main */
 
@@ -188,6 +186,10 @@ footer button:active::before{
 }
 
 footer button.active::before{
+    color: green;
+}
+
+footer .down-top:active{
     color: green;
 }
 
