@@ -4,3 +4,81 @@
     box-sizing: border-box;
 }
 
+
+/* font awesome */
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.user-plus::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+}
+
+.user-group::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f500";
+}
+
+.chart-column::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\e0e3";
+}
+
+.share::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f14d";
+}
+
+.chat::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f075";
+}
+
+.record::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f8d9";
+}
+
+.grid::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f84c";
+}
+
+.dots::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f141";
+}
+
+.open-microphone::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f130";
+}
+
+.closed-microphone::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f131";
+}
+
+.maximize::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f31e";
+}
+
+/* /font awesome */
