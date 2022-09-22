@@ -5,6 +5,11 @@
 }
 
 
+img{
+    width: 100%;
+}
+
+
 /* font awesome */
 .icon::before {
     display: inline-block;
@@ -95,16 +100,12 @@
 }
 /* /tools */
 
-body{
-    font-size: 1vw;
-}
-
-
 /* header */
 header{
     height: 50px;
     color: white;
     background-color: black;
+    font-size: 14px;
 }
 
 header .container{
@@ -129,6 +130,31 @@ header .display-view{
 main{
     height: calc(100vh - 50px - 80px);
     overflow: auto;
+    background-color: black;
+}
+
+main .container{
+    margin: 1% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .user{
+    width: 240px;
+    min-width: 240px;
+    position: relative;  
+    margin-bottom: 15px; 
+    padding-left: 5px;
+}
+
+main .user-name{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    background-color: rgba(74, 74, 74, .3);
+    color: white;
+    padding: 5px;
 }
 /* /main */
 
