@@ -12,73 +12,60 @@
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: white;
 }
 
-
 .user-plus::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
     content: "\f234";
 }
 
 .user-group::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
     content: "\f500";
 }
 
 .chart-column::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
     content: "\e0e3";
 }
 
 .share::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+
     content: "\f14d";
 }
 
 .chat::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+
     content: "\f075";
 }
 
 .record::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
     content: "\f8d9";
 }
 
 .grid::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+
     content: "\f84c";
 }
 
 .dots::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
     content: "\f141";
 }
 
 .open-microphone::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
     content: "\f130";
 }
 
 .closed-microphone::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
     content: "\f131";
 }
 
-.maximize::after{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+.maximize::before{
     content: "\f31e";
+}
+
+.table-cells::before{
+    content: "\f58d";
 }
 
 /* /font awesome */
@@ -90,12 +77,41 @@
     border: 1px solid green;
 }
 
+.list-flex-nostyle{
+    display: flex;
+    list-style-type: none;
+}
+
+.flex{
+    display: flex;
+}
 /* /tools */
+
+body{
+    font-size: 1.5vh;
+}
 
 
 /* header */
 header{
     height: 50px;
+    color: white;
+    background-color: black;
+}
+
+header .container{
+    justify-content: right;
+}
+
+header .display-view{
+    margin: 5px;
+}
+
+.display-view > li{
+    background-color: rgb(74, 74, 74);
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* /header */
@@ -104,6 +120,7 @@ header{
 /* main */
 main{
     height: calc(100vh - 50px - 80px);
+    overflow: auto;
 }
 /* /main */
 
